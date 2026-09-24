@@ -1,83 +1,67 @@
-# Hi, 我是 wanyiliudehua 👋
+# Hi, I'm wanyiliudehua 👋
 
-医疗行业从业者 · 医疗 AI 研究者 · 一线临床视角的思考者
+Healthcare practitioner · Medical AI researcher · Thinking from the front line of clinical care
 
-> 我相信：医疗的下一次进步，不仅来自更好的药和更贵的设备，也来自更懂医生、更懂患者的信息技术。
-
----
-
-## 🏥 我对医疗行业的思考
-
-### 1. 临床的复杂性，无法被简单地"数字化"
-
-病历、检验、影像把临床变成了数据，但临床决策从来不是数据的加减法。
-同样的指标组合，在不同患者身上可能是完全不同的故事。
-**AI 的价值不在于替代医生的判断，而在于把医生从重复劳动中解放出来，
-让医生把时间还给最难的那部分——思考与共情。**
-
-### 2. "软件适应医生"，而不是"医生适应软件"
-
-国内医疗信息化走了三十年，HIS、EMR、PACS 层层叠加，
-但很多系统的交互逻辑是为"管理"设计的，不是为"诊疗"设计的。
-医生被迫成为系统的录入员。
-我期待的下一代医疗软件是反过来的：
-**软件围绕医生的工作流生长，医生创造能力，系统守护边界。**
-
-### 3. 医疗 AI 的落地，卡点往往不在模型
-
-模型效果之外，更现实的门槛是：
-
-- **数据**：院内数据孤岛、标注成本、隐私合规；
-- **场景**：Demo 到床旁，隔着责任归属和工作流嵌入两道墙；
-- **信任**：医生不会采纳一个"黑箱"的建议，可解释性与可追溯性是刚需。
-
-所以医疗 AI 的工程化，一半是技术问题，一半是制度与信任问题。
-
-### 4. 专科纵深，比通用泛化更先跑通
-
-通用大模型什么都能聊，但临床要的是"敢签字"的建议。
-在具体专科、具体任务上（如超声报告审核、复发风险评估）建立评测标准与金标准，
-比追求"全科医生式的 AI"更务实，也更容易被临床接受。
-
-### 5. 预防与随访，是被低估的主战场
-
-治疗发生在医院，但健康发生在家里。
-慢病管理、术后随访、复发监测——这些低频高价值的场景，
-才是 AI 和可真正兑现"以患者为中心"的地方。
+> I believe the next leap in medicine will come not only from better drugs and more expensive devices, but from information technology that truly understands doctors and patients.
 
 ---
 
-## 🔬 我关注的方向
+## My Thoughts on the Healthcare Industry
 
-| 方向 | 关键词 |
-| --- | --- |
-| 医疗 AI 智能体 | Agent、技能生态、医院内网私有化部署 |
-| 临床决策支持 | 可解释性、人机协同、责任边界 |
-| 泌尿系结石 | 结石复发预测、代谢评估、文献综述 |
-| 医疗数据工程 | 数据脱敏、DICOM、真实世界数据质量 |
-| 医生工具化 | 自建技能、低代码、让临床问题被快速原型化 |
+### 1. The complexity of clinical care cannot be simply "digitized"
 
-## 🛠 我在做的事
+Records, lab results, and imaging turn care into data, but clinical decision-making was never arithmetic on data.
+The same set of metrics can tell completely different stories in different patients.
+**The value of AI is not to replace clinical judgment, but to free doctors from repetitive labor —
+so they can reclaim time for the hardest part: thinking and empathy.**
 
-- 📖 持续进行泌尿系结石复发方向的文献综述与证据梳理
-- 🤖 探索面向医院内网的医生自建技能智能体平台（临床可及、合规可控）
-- 📝 把一线临床中遇到的"低效环节"写成可被工程解决的问题
-- 🧪 用评测驱动的方式验证医疗 LLM 输出的可靠性
+### 2. "Software adapts to doctors", not "doctors adapt to software"
 
-## 📚 一些我相信的原则
+China's healthcare informatization has run for thirty years, layering HIS, EMR, and PACS on top of each other,
+yet the interaction logic of many systems is designed for *management*, not for *care*.
+Doctors are forced to become data-entry clerks.
+The next generation of medical software should be reversed:
+**software grows around the doctor's workflow — doctors create capability, systems guard the boundaries.**
 
-1. **证据优先**：任何结论都应可溯源到文献或数据。
-2. **安全先行**：在医疗场景，"不造成伤害"永远排在"带来收益"之前。
-3. **临床为本**：技术是手段，患者的获益和医生的效率才是目的。
-4. **小步验证**：先在一个专科、一个任务上做到可信，再谈扩展。
+### 3. For medical AI, the bottleneck is rarely the model
+
+Beyond model performance, the more realistic barriers are:
+
+- **Data**: siloed hospital data, labeling cost, privacy compliance;
+- **Scenario**: from demo to bedside sits behind two walls — accountability and workflow integration;
+- **Trust**: doctors will not act on a "black box"; explainability and traceability are non-negotiable.
+
+So engineering medical AI is half a technical problem, and half an institutional and trust problem.
+
+### 4. Depth in a specialty beats breadth in generalization
+
+A general-purpose model can chat about anything, but clinical work demands advice you can *sign your name to*.
+Building evaluation standards and gold standards around specific specialties and tasks
+(e.g., ultrasound report review, recurrence risk assessment) is more practical —
+and far more likely to be accepted — than chasing a "general-practitioner AI".
+
+### 5. Prevention and follow-up are the underestimated battleground
+
+Treatment happens in the hospital, but health happens at home.
+Chronic disease management, post-op follow-up, recurrence monitoring —
+these low-frequency, high-value scenarios are where AI can truly deliver on "patient-centered care".
 
 ---
 
-## 📫 联系我
+## Principles I believe in
 
-欢迎交流医疗 AI、临床证据、医生工具化相关话题。
-如果你也在做"让临床问题被更好地解决"的事，欢迎 fork、issue 或者只是打个招呼 ✨
+1. **Evidence first**: every conclusion should be traceable to literature or data.
+2. **Safety first**: in medicine, "do no harm" always outranks "gain benefit".
+3. **Clinical care at the core**: technology is the means; patient benefit and doctor efficiency are the ends.
+4. **Validate in small steps**: earn trust on one specialty, one task, before talking about scale.
+
+---
+
+## 📫 Get in touch
+
+Happy to talk about medical AI, clinical evidence, and tooling for doctors.
+If you're also working on "solving clinical problems better", feel free to fork, open an issue, or just say hi ✨
 
 <!--
-README 主题：医疗行业从业者对行业的思考
+Profile README theme: reflections on the healthcare industry from a practitioner
 -->
